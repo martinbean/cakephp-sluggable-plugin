@@ -78,4 +78,4 @@ class Article extends AppModel {
 }
 ```
 
-If you have any issues with this plugin then please feel free to create a new [Issue](https://github.com/martinbean/cakephp-sluggable-plugin/issues) on the [GitHub repository](https://github.com/martinbean/cakephp-sluggable-plugin).
+If you have any issues with this plugin then please feel free to create a new [Issue](https://github.com/martinbean/cakephp-sluggable-plugin/issues) on the [GitHub repository](https://github.com/martinbean/cakephp-sluggable-plugin). This plugin is licensed under the MIT License.
