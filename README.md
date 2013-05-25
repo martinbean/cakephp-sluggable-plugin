@@ -1,4 +1,4 @@
-# CakePHP Sluggable Behavior
+# CakePHP Sluggable Plugin
 
 A simple CakePHP plugin to allow you to create slugs from a title when saving records.
 
@@ -49,7 +49,7 @@ class Article extends AppModel {
 
 ### Configuration
 
-By default, the behavior assumes you have a `title` column and a `slug` column. The names of these columns can be customised as follows:
+By default, the behavior assumes you have a `title` column and a `slug` column in your corresponding database table. The names of these columns can be customised as follows:
 
 ```php
 <?php
@@ -64,7 +64,7 @@ class Article extends AppModel {
 }
 ```
 
-The behavior will replace non-alphanumeric characters with dashes. If you refer to use another character, such as an underscore, then you can change that too:
+The behavior will replace non-alphanumeric characters with dashes. If you prefer to use another character, such as an underscore, then you can change that too:
 
 ```php
 <?php
