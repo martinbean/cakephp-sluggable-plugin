@@ -12,7 +12,7 @@ class SluggableBehavior extends ModelBehavior {
         $this->settings[$Model->alias] = array_merge($this->settings[$Model->alias], $settings);
     }
     
-    public function beforeSave(Model $Model) {
+    public function beforeSave(Model $Model, $options = array()) {
         $titleColumn = $this->settings[$Model->alias]['titleColumn'];
         $slugColumn = $this->settings[$Model->alias]['slugColumn'];
         $replacement = $this->settings[$Model->alias]['replacement'];
